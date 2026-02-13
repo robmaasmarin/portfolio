@@ -14,7 +14,7 @@
         <nav class="nav">
             <ul class="nav-links">
     <li>
-        <a href="#home">
+        <a href="#">
             <img src="assets/icons/home.svg" alt="" class="nav-icon">
             <span>Home</span>
         </a>
@@ -56,12 +56,20 @@
             <article class="profile-card">
     <div class="photo-frame">
         <div class="fotoperfil">
-            <img src="assets/images/profileportfolio.png" alt="Foto de Tu Nombre">
+            <img src="assets/images/profileportfolio.png" alt="Foto de perfil">
         </div>
         <div class="title-subtitle">
-<h2 class="profileh2">Roberto Abelleira</h2>
-    <p>IT Support & Operations Specialist | Software Development Background (Java, SQL) | Enterprise Environments</p>
+    <h2 class="profileh2">Roberto Abelleira</h2>
+    <p class="profile-description">IT Support & Operations | Software Development (Java, SQL) | Enterprise Environments</p>
+    <div class="profile-social">
+        <a href="https://github.com/robmaasmarin" target="_blank" aria-label="GitHub">
+            <img src="assets/icons/GitHub_Invertocat_White.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/roberto-abelleira-pesqueira-554b44a1/" target="_blank" aria-label="LinkedIn">
+            <img src="assets/icons/social.png" alt="LinkedIn">
+        </a>
     </div>
+</div>
     </div>
     
 
@@ -72,16 +80,22 @@
             <!-- TEXTO PRINCIPAL -->
             <div class="hero-text">
                 <h1>Profesional IT</h1>
-                <h2>FP DAM · Kotlin · MVVM</h2>
-                <p>
-                    Desarrollador junior enfocado en crear aplicaciones Android
-                    limpias, mantenibles y orientadas a una buena experiencia de usuario.
-                </p>
+<h2>Soporte, Operaciones y Desarrollo de Aplicaciones</h2>
+
+<p>
+Profesional IT con amplia experiencia en soporte técnico y operaciones en entornos empresariales internacionales, 
+complementada con formación y práctica en desarrollo de software.
+</p>
+<p>
+Trabajo con una visión global del sistema, combinando atención al usuario, resolución de incidencias y comprensión del funcionamiento de las aplicaciones.
+</p>
+
 
                 <!-- CONTACTO RÁPIDO -->
                 <div class="hero-actions">
-                    <a href="#contacto">Contacto</a>
-                    <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+                    <a href="#contacto"><img src="assets/icons/email.png" alt="Email" class="icon">roberabp@gmail.com</a>
+                    <a href="ruta/a/tu/cv.pdf" download><img src="assets/icons/download1.png" alt="Descargar CV" class="icon">Descargar CV</a>
+
                 </div>
             </div>
 
@@ -95,81 +109,106 @@
         <div class="projects-list">
             <!-- Project card -->
             <article class="project-card">
+                
                 <div class="project-image">
-    <img src="assets/screenshots/app1.png" alt="Screenshot App">
+    <img src="assets/images/apps/foodexplorer.png" alt="Screenshot App">
 </div>
 
-                <h4>Nombre de la App</h4>
-                <p>Descripción corta del proyecto y qué problema resuelve.</p>
+                <h4>FoodExplorer</h4>
+                 <p>
+    App Android para explorar recetas por país, consultar detalles y
+    gestionar favoritos usando una API real.
+  </p>
 
-                <ul>
-                    <li>Kotlin</li>
-                    <li>MVVM</li>
-                    <li>Room</li>
-                </ul>
+  <ul>
+    <li class="tech-java">Java</li>
+    <li  class="tech-android">Android</li>
+    
+    <li>Retrofit</li>
+    <li>Glide</li>
+    <li>Material</li>
+  </ul>
 
                 <div class="project-links">
-                    <a href="#">Repositorio</a>
-                    <a href="#">Detalles</a>
+                    <a href="https://github.com/robmaasmarin/FoodExplorer" target="_blank"><img src="assets/icons/GitHub_Invertocat_White.png" alt="GitHub">Repo</a>
+                    <a href="#" target="_blank">Demo</a>
                 </div>
             </article>
             <article class="project-card">
 
                 <div class="project-image">
-    <img src="assets/screenshots/app1.png" alt="Screenshot App">
+    <img src="assets/images/apps/diabetrackdegradado.png" alt="Screenshot App">
 </div>
 
 
-                <h4>Nombre de la App</h4>
-                <p>Descripción corta del proyecto y qué problema resuelve.</p>
+                <h4>Diabetrack</h4>
+                 <p>
+        App de escritorio para personas con diabetes tipo 1. Permite registrar niveles de glucosa,
+        calcular dosis de insulina y generar informes personalizados. Desarrollada con JavaFX y Spring Boot.
+    </p>
 
-                <ul>
-                    <li>Kotlin</li>
-                    <li>MVVM</li>
-                    <li>Room</li>
-                </ul>
+                 <ul>
+        <li class="tech-java">Java</li>
+        <li class="tech-javafx">JavaFX</li>
+        <li class="tech-spring">Spring Boot</li>
+        <li class="tech-sql">MySQL</li>
+        <li>JasperReports</li>
+        
+    </ul>
 
-                <div class="project-links">
-                    <a href="#">Repositorio</a>
-                    <a href="#">Detalles</a>
+                 <div class="project-links">
+                    <a href="https://github.com/robmaasmarin/DiabeTrack" target="_blank"><img src="assets/icons/GitHub_Invertocat_White.png" alt="GitHub">Repo</a>
+                    <a href="#" target="_blank">Demo</a>
                 </div>
             </article>
             <article class="project-card">
                 <div class="project-image">
-    <img src="assets/screenshots/app1.png" alt="Screenshot App">
+    <img src="assets/images/apps/iberdegradado.png" alt="Screenshot App">
 </div>
 
-                <h4>Nombre de la App</h4>
-                <p>Descripción corta del proyecto y qué problema resuelve.</p>
+                <h4>Iberpiedra</h4>
+                <p>
+        Aplicación web full-stack para gestionar un catálogo de productos de piedra. Permite buscar, agregar, actualizar y eliminar productos mediante un frontend en HTML/CSS/JS conectado a un backend REST en Spring Boot con PostgreSQL.
+    </p>
 
-                <ul>
-                    <li>Kotlin</li>
-                    <li>MVVM</li>
-                    <li>Room</li>
-                </ul>
+                 <ul>
+        <li class="tech-java">Java</li>
+        <li class="tech-spring">Spring Boot</li>
+        <li class="tech-html">HTML5</li>
+        <li class="tech-css">CSS3</li>
+        <li class="tech-javascript">JavaScript</li>
+        <li class="tech-sql">PostgreSQL</li>
+        <li>REST API</li>
+    </ul>
 
-                <div class="project-links">
-                    <a href="#">Repositorio</a>
-                    <a href="#">Detalles</a>
+                 <div class="project-links">
+                        <a href="https://github.com/robmaasmarin/iberpiedra-buscador#" target="_blank"> <img src="assets/icons/GitHub_Invertocat_White.png" alt="GitHub">Frontend</a>
+                        <a href="#" target="_blank"> <img src="assets/icons/GitHub_Invertocat_White.png" alt="GitHub">Backend</a>
+                    <a href="#" target="_blank">Demo</a>
                 </div>
             </article>
             <article class="project-card">
                 <div class="project-image">
-    <img src="assets/screenshots/app1.png" alt="Screenshot App">
+    <img src="assets/images/apps/posterdegradado.png" alt="Screenshot App">
 </div>
 
-                <h4>Nombre de la App</h4>
-                <p>Descripción corta del proyecto y qué problema resuelve.</p>
+                <h4>MatchDay Posters Generator</h4>
+                <p>
+        Aplicación web para el C.D. Ciudad de A Coruña que permite generar carteles de partidos de forma rápida y profesional. Permite seleccionar equipos, fecha, lugar y fondo, y descargar posters en alta calidad.
+    </p>
 
-                <ul>
-                    <li>Kotlin</li>
-                    <li>MVVM</li>
-                    <li>Room</li>
-                </ul>
+                 <ul>
+        <li class="tech-html">HTML5</li>
+        <li class="tech-css">CSS3</li>
+        <li class="tech-javascript">JavaScript (ES6+)</li>
+        <li class="tech-bootstrap">Bootstrap 5</li>
+        <li>html2canvas</li>
+        
+    </ul>
 
-                <div class="project-links">
-                    <a href="#">Repositorio</a>
-                    <a href="#">Detalles</a>
+                 <div class="project-links">
+                    <a href="https://github.com/robmaasmarin/MatchDayPosterApp" target="_blank"><img src="assets/icons/GitHub_Invertocat_White.png" alt="GitHub">Repo</a>
+                    <a href="#" target="_blank">Demo</a>
                 </div>
             </article>
         </div>
@@ -252,10 +291,7 @@
 </section>
 
 
-        <article>
-            <h4>FP Desarrollo de Aplicaciones Multiplataforma</h4>
-            <p>Prácticas y proyectos académicos centrados en Android.</p>
-        </article>
+     
     </section>
 
     <!-- SOBRE MI -->
@@ -281,15 +317,29 @@
 
 
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="contact">
-        <h3>Contacto</h3>
-        <ul>
-            <li>Email: tunombre@email.com</li>
-            <li>GitHub: github.com/tuusuario</li>
-            <li>LinkedIn: linkedin.com/in/tuusuario</li>
-        </ul>
-    </section>
+  <!-- CONTACTO -->
+<section id="contacto" class="contact">
+    <h3>Contacto</h3>
+    <div class="contact-buttons">
+        <!-- Email / Sobre -->
+        <a href="roberabp@gmail.com" class="contact-btn">
+            <img src="assets/icons/email.png" alt="Email" class="icon">
+            <span>roberabp@gmail.com</span>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/robmaasmarin" target="_blank" class="contact-btn">
+            GitHub<img src="assets/icons/GitHub_Invertocat_White_Clearspace.png" alt="GitHub" class="icon">
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/roberto-abelleira-pesqueira-554b44a1" target="_blank" class="contact-btn">
+            Linkedin<img src="assets/icons/social.png" alt="LinkedIn" class="icon">
+        </a>
+    </div>
+</section>
+
+
 
     <footer>
         <p>© 2026 · Roberto Abelleira Pesqueira</p>
